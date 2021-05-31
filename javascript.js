@@ -6,4 +6,7 @@ var idade = 20;
 alert(nome + " tem " + idade + " anos");
 
 // Janela de prompt (para o usuário escrever uma mensagem)
-prompt(Digite seu nome: );
+prompt("Quantos anos você tem? ");
+
+// Arrays:
+
