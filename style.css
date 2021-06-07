@@ -1,10 +1,79 @@
 body {
   background-color: rgb(83, 83, 83);
 }
-h1 {
+
+.titulo h1 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
   padding: 1px;
+  color: aliceblue;
+}
+.areaProjetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: rgb(255, 251, 0);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+}
+.areaProjetos h1 {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: rgb(155, 155, 155);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+}
+.projetos form {
+  font-size: 30px;
+}
+.projetos label {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.projetos #GET-name {
+  border: none;
+  background-color: rgb(114, 114, 114);
+  font-size: 30px;
+}
+.projetos ::placeholder {
+  color: rgb(187, 187, 187);
+  font-family: monospace;
+  font-size: 20px;
+}
+.projetos input {
+  padding: 10px;
+}
+.projetos #btn {
+  background-color: rgb(255, 251, 0);
+  cursor: pointer;
+  border-style: none;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+  transition: 0.5s;
+}
+.projetos #btn:hover {
+  background-color: rgb(224, 221, 0);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.589);
+  transition: 0.5s;
 }
